@@ -51,18 +51,24 @@ header img{
     width: 32rem
 }
 
+header #welcome{
+    color: rgb(0,0,0);
+}
+
 header .combined-header .text-content h5{
-    font-family: 'Kaushan Script';
+    font-family: monserrt;
     font-size: 1.5rem;
-    color:rgb(249, 32, 12);
+    color:rgb(0,0,0);
     font-weight: bold;
 }
+
 
 header .combined-header .text-content h4{
     font-size: 2rem;
     color: rgb(95,161,0 );
     font-weight: bold;
 }
+
 
 article .article-text h4{
     margin-top: 4rem;
@@ -125,7 +131,7 @@ section .bible h3{
         background-repeat: no-repeat;
         background-size: cover;
         height: 100vh;
-        font-family: 'Kaushan Script', cursive;
+        font-family: Montserrat;
     }
 
     .navbar .dropdown-menu{
@@ -153,6 +159,10 @@ section .bible h3{
     }
     /*  */
 
+    .navbar img{
+        width: 2rem;
+    }
+
     header{
         background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0,0,0,0.8)),
         url(./images/arscpm\ logo.JPG);
@@ -166,11 +176,15 @@ section .bible h3{
         font-weight:bolder;
     }
 
+    header #welcome{
+        color: rgb(255, 255 ,255);
+    }
     
     header h4{
         font-size: 1.5rem;
     }
-
+    
+    
     header h5{
         font-weight:  bold;
         width: 90%;
@@ -178,22 +192,26 @@ section .bible h3{
         padding: 5px;
         background-color: rgb(255, 255, 255);
     }
-
-    .navbar img{
-        width: 2rem;
-    }
-
+    
+    
     header .combined-header{
         display: initial;
     }
+    
 
     header .combined-header .text-content h4{
-        color: rgb(95,161,0);
         font-weight: lighter;
     }
+
+    header .combined-header .text-content .welcome h4{
+        color: rgb(255, 255 ,255);
+        font-weight: lighter;
+    }
+
     header .combined-header .logo-image{
         display: none;
     }
+
 
     article,section{
         display: none;
