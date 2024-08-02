@@ -1,0 +1,202 @@
+.fixed-top .container-fluid .navbar-toggler{
+    display: none;
+}
+
+#offcanvasNavbarLabel{
+    color: rgb(255,255,255);
+}
+
+.desktop-links a{
+    margin-right: 1.5rem;
+    color: rgb(95,161,0 )
+}
+
+.desktop-links button {
+    margin-right: 1.5rem;
+}
+
+nav {
+    background-color: rgb(255,255,255);
+}
+
+
+/*  */
+.navbar img{
+    width: 4rem;
+}
+/*  */
+
+.navbar  a {
+    text-decoration: none;
+    color: rgb(95,161,0 );
+    font-weight: bold;
+}
+
+.navbar a:hover{
+    color:rgb(249, 32, 12);
+}
+
+
+/* header */
+
+header .combined-header{
+display: grid;
+grid-template-columns: 2fr 2fr;
+margin-top: 10rem;
+align-items: center;
+text-align: center;
+}
+
+header img{
+    width: 32rem
+}
+
+header .combined-header .text-content h5{
+    font-family: 'Kaushan Script';
+    font-size: 1.5rem;
+    color:rgb(249, 32, 12);
+    font-weight: bold;
+}
+
+header .combined-header .text-content h4{
+    font-size: 2rem;
+    color: rgb(95,161,0 );
+    font-weight: bold;
+}
+
+article .article-text h4{
+    margin-top: 4rem;
+    text-align: center;
+    background-color: rgb(95,161,0 );
+    padding: 2rem;
+    color: rgb(255,255,255);
+    border-radius: 1rem;
+}
+
+section .combined-verses {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    margin: 7rem 0 2rem;
+}
+
+section .bible{
+    background-color: rgb(95,161,0 );
+    color: rgb(255,255,255);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+section .bible h4{
+    font-size: 1.2rem;
+}
+
+section .bible h3{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+/* mobile and tab view */
+@media (max-width: 767px) {
+    .fixed-top .container-fluid .navbar-toggler{
+        display: initial;
+    }
+    
+    .desktop-links{
+        display: none;
+    }
+    
+    .container-fluid a{
+        color: rgb(95,161,0);
+        /* font-family: 'Playball', cursive; */
+    }
+
+    .navbar .offcanvas, .dropdown-menu{
+        background: linear-gradient(rgba(95,161,0, 0.7),rgba(123, 193, 25, 0.8)),
+        url(./images/arscpm\ logo.JPG);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        font-family: 'Kaushan Script', cursive;
+    }
+
+    .navbar .dropdown-menu{
+        background: none;
+        height: 60vh;
+    }
+
+    .navbar .offcanvas a{
+        color: rgb(255, 255, 255);
+        font-weight: bolder;
+        font-family:  cursive;
+    }
+
+    .navbar-toggler .navbar-toggler-icon, .btn-close{
+        background-color: rgb(255,255,255);
+    }
+
+    nav {
+        background-color: rgba(73,73,73,0.9);
+    }
+
+    /*  */
+    .navbar .navbar-brand img{
+        display: none;
+    }
+    /*  */
+
+    header{
+        background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0,0,0,0.8)),
+        url(./images/arscpm\ logo.JPG);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        padding: 11rem 1.5rem;
+        height: 100vh;
+        font-family: Montserrat;
+        font-weight:bolder;
+    }
+
+    
+    header h4{
+        font-size: 1.5rem;
+    }
+
+    header h5{
+        font-weight:  bold;
+        width: 90%;
+        margin: auto;
+        padding: 5px;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .navbar img{
+        width: 2rem;
+    }
+
+    header .combined-header{
+        display: initial;
+    }
+
+    header .combined-header .text-content h4{
+        color: rgb(95,161,0);
+        font-weight: lighter;
+    }
+    header .combined-header .logo-image{
+        display: none;
+    }
+
+    article,section{
+        display: none;
+    }
+
+}
