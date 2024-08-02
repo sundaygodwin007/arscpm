@@ -142,7 +142,7 @@ section .bible h3{
     .navbar .offcanvas a{
         color: rgb(255, 255, 255);
         font-weight: bolder;
-        font-family:  cursive;
+        font-family:  Montserrat;
     }
 
     .navbar-toggler .navbar-toggler-icon, .btn-close{
