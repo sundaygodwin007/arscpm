@@ -24,7 +24,8 @@ nav {
 
 .navbar  a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(95,161,0);
+    font-weight: bolder;
 }
 
 .navbar a:hover{
@@ -38,7 +39,7 @@ header{
 }
 
 header span{
-    background-color: rgb(252, 9, 9);
+    background-color: rgb(95,161,0);
     color: rgb(255,255,255);
     padding: 5px;
     border-radius: 10px;
@@ -47,7 +48,7 @@ header span{
 /*  */
 
 section h4{
-    background-color: rgb(252, 9, 9);
+    background-color: rgb(95,161,0);
     width: 50%;
     color: rgb(255,255,255);
     text-align: center;
@@ -81,7 +82,7 @@ article table , tr, th, td{
 article a{
     text-decoration: none;
     color: rgb(255,255,255);
-    background-color: rgb(84, 171, 242);
+    background-color: rgb(95,161,0);
     padding: 4px;
     border-radius: 10px;
 }
@@ -92,7 +93,7 @@ article a:hover{
 
 footer{
     margin-top: 8rem;
-    background-color: rgb(84, 171, 242);
+    background-color: rgb(95,161,0);
     padding: 3em;
     color: rgb(255,255,255);
     display: grid;
@@ -135,15 +136,18 @@ footer  h4{
     }
 
     .navbar .offcanvas, .dropdown-menu{
-        background-color: rgba(59, 123 ,167, 0.9);
-
-        /* for future update */
-
-        /* background: linear-gradient(rgba(59, 123 ,167, 0.9),rgba(59, 123 ,167, 0.7)),
-        url(./images/christlove.png);
-        background-position:0%, 0%;
+        background: linear-gradient(rgba(95,161,0, 0.7),rgba(123, 193, 25, 0.8)),
+        url(./images/arscpm\ logo.JPG);
+        background-position: center;
         background-repeat: no-repeat;
-        background-size: cover; */ 
+        background-size: cover;
+        height: 100vh;
+        font-family: Montserrat;
+    }
+
+    .navbar .dropdown-menu{
+        background: none;
+        height: 60vh;
     }
     
 
@@ -153,8 +157,9 @@ footer  h4{
     }
 
     nav {
-        background-color: rgba(59, 123 ,167, 0.9);
+        background-color: rgb(95,161,0);
     }
+
 
     /*  */
     .navbar .navbar-brand img{
@@ -164,14 +169,14 @@ footer  h4{
 
 
     header span{
-        background-color: rgba(59, 123 ,167, 0.9);
+        background-color: rgb(95,161,0);
         color: rgb(255,255,255);
         padding: 5px;
         border-radius: 10px;
     }
 
     section h4{
-        background-color: rgba(59, 123 ,167, 0.9);
+        background-color: rgb(95,161,0);
         width: 90%;
         color: rgb(255,255,255);
         text-align: center;
@@ -186,7 +191,7 @@ footer  h4{
 
     footer{
         margin-top: 8rem;
-        background-color: rgb(84, 171, 242);
+        background-color: rgb(95,161,0);
         padding: 3em;
         color: rgb(255,255,255);
         display: grid;
