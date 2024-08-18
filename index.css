@@ -137,6 +137,7 @@ section .bible h3{
     .navbar .dropdown-menu{
         background: none;
         height: 60vh;
+        margin-bottom: 1rem;
     }
 
     .navbar .offcanvas a{
