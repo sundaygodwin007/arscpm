@@ -124,6 +124,7 @@ section .bible h3{
         /* font-family: 'Playball', cursive; */
     }
 
+    
     .navbar .offcanvas, .dropdown-menu{
         background: linear-gradient(rgba(95,161,0, 0.7),rgba(123, 193, 25, 0.8)),
         url(./images/arscpm\ logo.JPG);
@@ -133,17 +134,23 @@ section .bible h3{
         height: 100vh;
         font-family: Montserrat;
     }
-
+    
     .navbar .dropdown-menu{
         background: none;
-        height: 60vh;
+        height: 65vh;
         margin-bottom: 4rem;
     }
-
+    
     .navbar .offcanvas a{
         color: rgb(255, 255, 255);
         font-weight: bolder;
         font-family:  Montserrat;
+    }
+    
+    .navbar .offcanvas a:hover{
+        color:rgb(249, 32, 12);
+        background-color: rgb(255, 255, 255);
+        padding: 8px;
     }
 
     .navbar-toggler .navbar-toggler-icon, .btn-close{

@@ -8,7 +8,7 @@
 
 .desktop-links a{
     margin-right: 1.5rem;
-    color: rgb(95,161,0 );
+    color: rgb(95,161,0 )
 }
 
 .desktop-links button {
@@ -36,39 +36,44 @@ nav {
     color:rgb(249, 32, 12);
 }
 
-body{
-    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0,0,0,0.8)),
-    url(./images/arscpm\ logo.JPG);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    font-family: Montserrat;
-    font-weight:bolder;
+/* header */
+header{
+    margin-bottom: 2rem;
 }
-
- header h3{
-        margin: 7rem 0 4rem;
-        text-align: center;
-        font-weight: bolder;
-        color: rgb(255, 255, 255);
-    }
-
-article .prayers{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 1rem;
-}
-
-article .prayer{
+header h3{
+    margin-top: 5rem;
+    font-weight: bold;
     text-align: center;
 }
 
-article .prayer{
-    background-color: rgb(95,161,0 );
-    color: rgb(255, 255, 255);
-    padding: 1rem;
-    border-radius: 1rem;
+header h4{
+    margin: 5rem 0 1rem;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+/* section */
+section h4{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 3rem;
+}
+
+section h5 {
+    font-weight: lighter;
+}
+
+section h6{
+    text-align: center;
+}
+
+section ol li{
+    font-weight: bolder;
+}
+
+section #marriage ol li {
+    font-weight: lighter;
 }
 
 
@@ -96,7 +101,6 @@ article .prayer{
         /* font-family: 'Playball', cursive; */
     }
 
-    
     .navbar .offcanvas, .dropdown-menu{
         background: linear-gradient(rgba(95,161,0, 0.7),rgba(123, 193, 25, 0.8)),
         url(./images/arscpm\ logo.JPG);
@@ -106,23 +110,17 @@ article .prayer{
         height: 100vh;
         font-family: Montserrat;
     }
-    
+
     .navbar .dropdown-menu{
         background: none;
-        height: 65vh;
+        height: 60vh;
         margin-bottom: 4rem;
     }
-    
+
     .navbar .offcanvas a{
         color: rgb(255, 255, 255);
         font-weight: bolder;
         font-family:  Montserrat;
-    }
-    
-    .navbar .offcanvas a:hover{
-        color:rgb(249, 32, 12);
-        background-color: rgb(255, 255, 255);
-        padding: 8px;
     }
 
     .navbar-toggler .navbar-toggler-icon, .btn-close{
@@ -143,31 +141,5 @@ article .prayer{
         width: 2rem;
     }
 
-
-
-    body{
-        background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0,0,0,0.8)),
-        url(./images/arscpm\ logo.JPG);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        font-family: Montserrat;
-        font-weight:bolder;
-    }
-
-
-     header h3{
-        margin: 5rem 0 2rem;
-        text-align: center;
-    }
-
-
-    article .prayers{
-        display: block;
-    }
-
-    article .prayer{
-        margin: 1rem 0;
-    }
-
+    
 }
