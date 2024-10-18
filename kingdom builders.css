@@ -36,6 +36,21 @@ nav {
     color:rgb(249, 32, 12);
 }
 
+header h3 #about{
+    margin-top: 5rem;
+    text-align: center;
+}
+
+
+ header h3{
+        margin: 7rem 0 4rem;
+        text-align: center;
+        font-weight: bolder;
+        color: rgb(0,0,0);
+    }
+
+
+
 
 
 
@@ -121,6 +136,12 @@ nav {
         background-size: cover;
         font-family: Montserrat;
         font-weight:bolder;
+    }
+
+
+     header h3{
+        margin: 5rem 0 2rem;
+        text-align: center;
     }
 
 
